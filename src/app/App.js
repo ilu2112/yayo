@@ -1,3 +1,6 @@
+require('../styles/App.scss');
+
+
 import React, { Component } from 'react';
 
 
