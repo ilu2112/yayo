@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ilu2112/yayo#readme",
   "dependencies": {
+    "compass-mixins": "^0.12.10",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-redux": "^4.4.5",

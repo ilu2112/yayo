@@ -1,6 +1,8 @@
-body {
-  h1 {
-    background: linear-gradient(#DDD, #EEE);
-    display: flex;
-  }
-}
+// @import '../../node_modules/reset-css/reset.css';
+@import '../../node_modules/compass-mixins/lib/compass';
+@import '../../node_modules/compass-mixins/lib/compass/reset';
+
+@import 'config/fonts';
+
+@import 'base/mixins';
+@import 'base/layout';

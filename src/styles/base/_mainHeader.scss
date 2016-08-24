@@ -1,0 +1,14 @@
+.main-header {
+  background: linear-gradient(#CCC, #F8F8F8);
+  height: calculateRem(40px);
+  line-height: calculateRem(40px);
+  @include fontSize(20px);
+  padding: calculateRem(0px) calculateRem(15px);
+  border-bottom: calculateRem(1px) solid #CCC;
+  margin-bottom: calculateRem(20px);
+
+  &__version {
+    @include fontSize(12px);
+    font-weight: 300;
+  }
+}
